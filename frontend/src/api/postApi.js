@@ -2,7 +2,7 @@
 // ব্যাকএন্ড REST API গুলোর সাথে যোগাযোগ করার সার্ভিস ফাইল
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/posts';
+const API_URL = 'story-spark-backend-pi.vercel.app/api/posts';
 
 // সকল পোস্ট আনার ফাংশন
 export const fetchPostsAPI = async () => {
